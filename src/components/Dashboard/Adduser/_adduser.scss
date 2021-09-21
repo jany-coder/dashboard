@@ -1,0 +1,107 @@
+@import '../../../variables/variable';
+
+
+.admin-header  {
+    span {color: $light-green;
+    font-size: 18px;
+    font-weight: 400;
+}
+    p {
+        font-size:15px;
+        color: $gray-text;
+    }
+}
+
+.dash-btn span {
+    padding: 10px 18px;
+    color: #fff;
+    background-color: #006838;
+}
+
+.group-summary h5{
+    font-size:18px;
+    font-weight: 400s;
+}
+
+.round-icon {
+    .icon {
+    background-color: $light-gray;
+    font-size: 14px;
+    color: $light-green;
+    padding: 6px 7px;
+    border-radius: 50%;
+    margin-right: 5px;
+    }
+
+    .head-text {
+        font-size: 14px;
+    }
+    .sub-text {
+        font-size: 14px;
+        color: $gray-text;
+    }
+}
+
+.download {
+    padding: 11px 20px;
+    border: 1px solid $light-green;
+    border-radius: 10px;
+    font-size: 14px;
+    color: $light-green;
+
+}
+
+.add-group {
+    padding: 11px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: $dark-green;
+
+    .icon-add {
+        font-size:22px;
+    }
+}
+
+// search button
+
+.search__box {
+    background: #F2F4F8;
+    color: #5c5c5c;
+    font-size: 14px;
+    width: 50%;
+    height: 35px;
+    border-radius: 0px 10px 10px 0px;
+    outline: none;
+    border: none;
+}
+
+
+
+.search {
+    .search-icon {
+        background-color: $light-gray;
+        height: 35px;
+        width: 30px;
+        padding:0 10px;
+        border-radius: 10px 0px 1px 10px;
+        color: $light-green;
+    }
+}
+
+table .icon {
+    font-size: 10px;
+}
+
+table .t-head {
+    font-size: 14px;
+}
+
+table thead {
+    background-color: $dark-green;
+    color:#fff;
+}
+
+.delete {
+    color: red;
+}

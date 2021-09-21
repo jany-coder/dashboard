@@ -1,0 +1,62 @@
+@import '../../../variables/variable';
+
+.sidebar{
+
+    ul li{
+        margin-bottom: 1.5em;
+        
+       
+    }
+    li:hover span{
+        display: inline-block;
+        transform: translate(5px);
+    }
+
+    li a {
+        text-decoration: none;
+        color: $gray-text;
+    }
+    
+    li img {
+        width: 150px;
+    }
+
+    li .admin-icon {
+        padding: 15px 20px 15px 20px;
+        background-color: $dark-green;
+        color: white;
+        margin-bottom: 0;
+    }
+    .side-button {
+        margin-left: 22px;
+    }
+
+    .admin {
+        position: relative;
+    }
+
+    .login span {
+        text-decoration: none !important;
+        color: $gray-text;
+    }
+
+    .login {
+        padding-bottom: 100px;
+    }
+
+    
+}
+
+.admin:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -34px;
+    width: 2px;
+    top: 0;
+    height: 54px;
+    background-color: #006838;
+}
+
+
+

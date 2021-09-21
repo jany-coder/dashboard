@@ -1,0 +1,35 @@
+@import '../../../variables/variable';
+
+.manage {
+
+    .icon {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    h5 {
+        font-size:14px;
+    }
+    p{
+        font-size: 10px;
+        color: $gray-text;
+    }
+}
+
+.manage-btn {
+    padding: 16px 20px;
+    border-radius: 10px;
+    background-color: $dark-green;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.manage-btn-handle:hover {
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+    transform: translate(5px);
+    border-radius: 10px;
+
+}
+
+   
